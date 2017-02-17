@@ -1,0 +1,185 @@
+body {
+  font-family: 'Poppins', serif;
+	padding: 0;
+	margin: 1vw;
+}
+
+h1 {
+	line-height: 1.2;
+	margin: 0;
+	text-align: center;
+}
+
+h2 {
+	margin-top: 0;
+	text-decoration: underline;
+	text-transform: uppercase;
+}
+
+/* Grid container and elements */
+.grid-container {
+	border: 1px solid #777;
+  display: grid;
+  grid-template-columns: 8vw 35vw 40vw calc(15vw - 2px);
+  grid-template-rows: auto auto auto auto auto;
+}
+
+.grid-element {
+  background-color: #fff;
+  border: 1px solid #000;
+  color: #333;
+  font-size: 1em;
+  padding: 2em;
+}
+
+/* Individual elements */
+.header {
+	display: flex;
+  grid-column-start: 3;
+  grid-column-end: 5;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  padding: 1em;
+}
+
+.half {
+	font-size: 0.8rem;
+	font-weight: 600;
+	padding: 1em 5em;
+}
+
+.half p {
+	margin: 0;
+}
+
+.half p:last-child {
+	border-bottom: 1px solid #ccc;
+	font-size: .8em;
+	margin: 1em 5em 0 -7.8em;
+	text-align: right;
+	text-transform: uppercase;
+}
+
+.half span {
+	padding-left: 6em;
+}
+
+.halfLeft {
+	border-right: 1px dashed #ccc;
+}
+
+.halfRight p:last-child {
+	margin-left: -4em;
+}
+
+.main {
+  grid-column-start: 2;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  grid-row-end: 8;
+}
+
+.mainImage {
+	/* background: url(/images/radio-tower.jpg) center center; */
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 2;
+  grid-row-end: 6;
+  padding: 0;
+}
+
+.mainImage img {
+	height: 100%;
+	width: 100%;
+}
+
+.extra {
+	display: flex;
+	flex-direction: column;
+  grid-column-start: 4;
+  grid-column-end: 5;
+  grid-row-start: 2;
+  grid-row-end: 8;
+  justify-content: center;
+  text-align: center;
+}
+
+.extra .item {
+	display: flex;
+	flex-direction: column;
+	font-size: .9em;
+	line-height: 1.2;
+	margin-top: 2em;
+	text-transform: uppercase;
+	transition: 0.3s;
+}
+
+.item:hover {
+	transform: scale(1.1);
+	transition: 0.3s;
+}
+
+.footer {
+	margin: 2em;
+  text-align: center;
+}
+
+.gutterLeft {
+	align-items: center;
+	display: flex;
+  grid-column-start: 1;
+  grid-column-end: 1;
+  grid-row-start: 1;
+  grid-row-end: 8;
+  justify-content: center;
+}
+
+.gutterLeft p {
+	transform: rotate(270deg);
+	transform-origin: left top 0;
+}
+
+.gutterBottom {
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 6;
+  grid-row-end: 8;
+  min-height: 2vh;
+}
+
+@media all and (max-width: 1000px) {
+	body {
+		margin: 0;
+	}
+	
+	.grid-container {
+		border: none;
+	  display: inherit;
+	  grid-template-columns: 100vw;
+	  grid-template-rows: auto;
+	}
+	
+	.grid-element {
+	  border: none;
+	}
+	
+	.header {
+		display: flex;
+		flex-direction: column;
+	  grid-column-start: 1;
+	  grid-column-end: 1;
+	  grid-row-start: 1;
+	  grid-row-end: 2;
+	  padding: 1em;
+	}
+	
+	.decorative {
+		display: none;
+	}
+	
+	.half,
+	.halfLeft,
+	.half p:last-child {
+		border: none;
+	}
+}

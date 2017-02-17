@@ -1,0 +1,9 @@
+<svg class="nc-icon outline" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="48px" height="48px" viewBox="0 0 48 48"><g transform="translate(0, 0)">
+<polyline data-cap="butt" data-color="color-2" fill="none" stroke="#444444" stroke-width="2" stroke-miterlimit="10" points="23.6,23.7 25.5,20.8 
+	36.3,28 29.1,38.8 21.1,33.5 " stroke-linejoin="miter" stroke-linecap="butt"></polyline>
+<line data-cap="butt" data-color="color-2" fill="none" stroke="#444444" stroke-width="2" stroke-miterlimit="10" x1="36.3" y1="28" x2="46" y2="28" stroke-linejoin="miter" stroke-linecap="butt"></line>
+<line data-cap="butt" data-color="color-2" fill="none" stroke="#444444" stroke-width="2" stroke-miterlimit="10" x1="2" y1="28" x2="11.3" y2="28" stroke-linejoin="miter" stroke-linecap="butt"></line>
+<rect data-color="color-2" x="11.7" y="21.2" transform="matrix(0.9363 -0.3511 0.3511 0.9363 -8.5581 8.132)" fill="none" stroke="#444444" stroke-width="2" stroke-linecap="square" stroke-miterlimit="10" width="13" height="13" stroke-linejoin="miter"></rect>
+<path fill="none" stroke="#444444" stroke-width="2" stroke-linecap="square" stroke-miterlimit="10" d="M40,44H8c-3.3,0-6-2.7-6-6
+	V4h44v34C46,41.3,43.3,44,40,44z" stroke-linejoin="miter"></path>
+</g></svg>
