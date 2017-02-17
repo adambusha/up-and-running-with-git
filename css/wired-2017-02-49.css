@@ -84,7 +84,7 @@ h2 {
   grid-column-start: 3;
   grid-column-end: 4;
   grid-row-start: 2;
-  grid-row-end: 6;
+  grid-row-end: 8;
   padding: 0;
 }
 
@@ -137,14 +137,6 @@ h2 {
 .gutterLeft p {
 	transform: rotate(270deg);
 	transform-origin: left top 0;
-}
-
-.gutterBottom {
-  grid-column-start: 3;
-  grid-column-end: 4;
-  grid-row-start: 6;
-  grid-row-end: 8;
-  min-height: 2vh;
 }
 
 @media all and (max-width: 1000px) {
